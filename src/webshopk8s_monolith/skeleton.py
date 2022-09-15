@@ -120,6 +120,7 @@ def main(args):
       args (List[str]): command line parameters as list of strings
           (for example  ``["--verbose", "42"]``).
     """
+    
     args = parse_args(args)
     setup_logging(args.loglevel)
     _logger.debug("Starting crazy calculations...")
