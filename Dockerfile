@@ -10,5 +10,5 @@ COPY setup.py setup.py
 # COPY app.py  app.py
 
 RUN python setup.py install
-
+EXPOSE 80
 CMD ["monolith_web"]
